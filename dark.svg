@@ -1,0 +1,61 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Prabhat Kumar — Software Engineer</title>
+  <desc id="desc">A dark terminal-inspired profile banner with animated accents.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080d1b"/>
+      <stop offset="100%" stop-color="#11152b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="358" rx="23" fill="none" stroke="#303958"/>
+
+  <circle cx="1100" cy="60" r="130" fill="#8b5cf6" opacity=".08"/>
+  <circle cx="1060" cy="310" r="150" fill="#06b6d4" opacity=".07"/>
+
+  <g opacity=".16" stroke="#64748b">
+    <path d="M0 80H1200 M0 160H1200 M0 240H1200 M0 320H1200"/>
+    <path d="M100 0V360 M200 0V360 M300 0V360 M400 0V360 M500 0V360 M600 0V360 M700 0V360 M800 0V360 M900 0V360 M1000 0V360 M1100 0V360"/>
+  </g>
+
+  <rect x="54" y="38" width="1092" height="284" rx="16" fill="#0b1020" stroke="#303958"/>
+  <path d="M54 82H1146" stroke="#303958"/>
+
+  <circle cx="82" cy="60" r="6" fill="#fb7185"/>
+  <circle cx="104" cy="60" r="6" fill="#fbbf24"/>
+  <circle cx="126" cy="60" r="6" fill="#34d399"/>
+  <text x="600" y="65" fill="#8491ad" font-family="monospace" font-size="12" text-anchor="middle">prabhat@developer: ~</text>
+
+  <text x="92" y="130" fill="#22d3ee" font-family="monospace" font-size="14">$ whoami</text>
+  <text x="92" y="184" fill="#f8fafc" font-family="Arial, sans-serif" font-size="43" font-weight="700">Prabhat Kumar</text>
+  <rect x="92" y="201" width="390" height="3" rx="2" fill="url(#accent)"/>
+
+  <text x="92" y="238" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="19">Software Engineer  •  Full-Stack Developer</text>
+  <text x="92" y="270" fill="#94a3b8" font-family="Arial, sans-serif" font-size="15">Building practical products with code, creativity &amp; AI.</text>
+
+  <text x="92" y="300" fill="#22d3ee" font-family="monospace" font-size="13">IIIT Ranchi  /  B.Tech ECE  /  2027</text>
+
+  <g transform="translate(790 125)">
+    <rect width="300" height="142" rx="12" fill="#111a30" stroke="#33415f"/>
+    <text x="20" y="29" fill="#a78bfa" font-family="monospace" font-size="13">const developer = {</text>
+    <text x="35" y="57" fill="#cbd5e1" font-family="monospace" font-size="13">focus: "Full Stack",</text>
+    <text x="35" y="82" fill="#cbd5e1" font-family="monospace" font-size="13">interest: "GenAI",</text>
+    <text x="35" y="107" fill="#cbd5e1" font-family="monospace" font-size="13">mindset: "Always learning"</text>
+    <text x="20" y="130" fill="#a78bfa" font-family="monospace" font-size="13">};</text>
+  </g>
+
+  <rect x="1080" y="291" width="8" height="17" rx="2" fill="#22d3ee" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
